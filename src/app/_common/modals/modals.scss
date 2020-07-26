@@ -1,0 +1,19 @@
+.modal {
+
+    .modal-content {
+        border-radius: 0;
+    }
+
+    // MOdal tabs are defined in _common/modal/modal.scss
+
+    .modal-header {
+        background-color: $color-primary;
+        color: #ffffff;
+    }
+
+    .modal-footer {
+        .btn {
+            margin-bottom: 0;
+        }
+    }
+}
